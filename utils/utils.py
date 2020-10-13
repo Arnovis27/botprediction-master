@@ -11,8 +11,8 @@ from xml.dom import minidom
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 
-from root import DIR_INPUT
-
+#from root import DIR_INPUT
+DIR_INPUT= ("../data/input/es/")
 
 class Util(object):
     """

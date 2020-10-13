@@ -11,7 +11,10 @@ from logic.feature_extraction import FeatureExtraction
 from logic.iteration_cv import IterationCV
 from sklearn.model_selection import train_test_split
 from utils.utils import Util
-from root import DIR_OUTPUT, DIR_MODELS, DIR_INPUT
+
+DIR_OUTPUT= ("../data/output/")
+DIR_MODELS= ("../data/models/")
+DIR_INPUT= ("../data/input/es/")
 
 fieldnames = ('model_name', 'classifier_name', 'f1', 'accuracy', 'recall', 'precision', 'cross_entropy',
               'log_loss', 'classification', 'confusion', 'sample_train', 'classifier', 'time_processing')
